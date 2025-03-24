@@ -147,7 +147,7 @@ h6 {
   --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -210,7 +210,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 8px 20px;
-    font-size: 14px;
+    font-size: 1.1rem;
     font-family: var(--nav-font);
     font-weight: 400;
     display: flex;
@@ -476,10 +476,11 @@ h6 {
 .footer .copyright {
   padding-top: 25px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  font-size: 1.2rem;
 }
 
 .footer .credits {
-  font-size: 13px;
+  font-size: 18px;
   padding-top: 5px;
 }
 
