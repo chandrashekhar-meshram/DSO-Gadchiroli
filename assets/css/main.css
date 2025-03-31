@@ -20,7 +20,7 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
+  --default-color: rgb(68, 68, 68); /* Default color used for the majority of the text content across the entire website */
   --heading-color: #2a2c39; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #ef6603; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -30,7 +30,7 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #ef6603; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: rgb(239, 102, 3); /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #060606; /* Used for navigation links of the dropdown items in the navigation menu. */
@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #2a2c39;
+  --background-color: #292b38;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #404356;
@@ -143,8 +143,8 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0);
-  --heading-color: #ffffff;
+  --background-color: #dc3545;
+  --heading-color: rgb(255, 255, 255);
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 10px 0;
@@ -210,7 +210,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 8px 20px;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-family: var(--nav-font);
     font-weight: 400;
     display: flex;
@@ -258,7 +258,7 @@ h6 {
 
   .navmenu .dropdown ul a {
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 1.2rem;
     text-transform: none;
     color: var(--nav-dropdown-color);
   }
@@ -476,11 +476,11 @@ h6 {
 .footer .copyright {
   padding-top: 25px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 .footer .credits {
-  font-size: 18px;
+  font-size: 1.6rem;
   padding-top: 5px;
 }
 
@@ -694,7 +694,7 @@ section,
   text-align: center;
   position: relative;
   min-height: 75vh;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 .hero h2 {
